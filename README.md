@@ -6,20 +6,23 @@
 - [ ] People can mark text and attach a comment to it
 - [ ] **try your best to make it look good (e.g. styling and transitions)**
 - [ ] store comments in localStorage like a DB
-- [ ] Make it work as a very simple rails application and deploy it to heroku.
-- [ ] You are free to use tools or frameworks that you feel comfortable with
-
 
 ### Summarised
 * Single user (e.g. Hello my name is ____), single wall of static text
-* <Mark> (highlight) text and attach comments
+* `<mark>` (highlight) text and attach comments
 * Load and save to localStorage
 * Deploy to static bundle hoster (or rails on heroku if time allows)
 
-#### Comment
+### Screenshots
 
-```
-  | What a great line here, [x] |
-  | that's one to remember      |
+#### Highlight text on Medium:
+![highlighting text on medium](http://i.imgur.com/jJBw5vq.png)
 
-```
+#### SideComments.js demo:
+Hovering over comments button (before click):
+
+![hovering over button](http://i.imgur.com/br7LguR.png)
+
+Comments pane expanded (after click):
+
+![comments pane shown](http://i.imgur.com/1t2skWs.png)
